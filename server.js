@@ -3,9 +3,9 @@
 require ('dotenv').config()
 const app = require('./app')
 
-const PORT = process.env.PORT  4333
+const PORT = process.env.PORT  
 app.listen(PORT,()=>{
-  resizeBy.send(`Server running on port ${PORT}`)
+  console.log(`Server running on port ${PORT}`)
 })
 
 
