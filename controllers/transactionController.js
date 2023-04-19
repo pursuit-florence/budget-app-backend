@@ -10,7 +10,7 @@ transaction.get("/",(req, res) => {
 
 transaction.post('/', (req, res) => {
   const transaction = {
-        transctionId: Math.floor(Math.random() * 999999),
+        transactionId: Math.floor(Math.random() * 999999),
         item_name: req.body.item_name,
         amount: req.body.amount,
         date: req.body.date,

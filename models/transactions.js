@@ -1,45 +1,47 @@
+
+
 module.exports = [
 {
   transactionId: 0,
   item_name: "income",
   amount: 100,
-  date: "04-18-2023",
-  from: "Bank",
-  category:"food"
+  date: "April 18 2023",
+  from: "employer",
+  category:"income"
 },
 {
   transactionId: 1,
-  item_name: "income",
+  item_name: "loan",
   amount: 150,
-  date: "04-18-2023",
+  date: "June 07 2023",
   from: "Bank",
-  category:"saving"
+  category:"expenses"
 },
 
 {
   transactionId: 2,
-  item_name: "income",
+  item_name: "tuition",
   amount: 200,
-  date: "04-18-2023",
+  date: "January", 10 :2023,
   from: "Bank",
-  category:"income"
+  category:"gifts"
 },
 {
   transactionId: 3,
-  item_name: "income",
+  item_name: "savings",
   amount: 200,
-  date: "04-18-2023",
+  date: "February 28 2023",
   from: "Bank",
   category:"savings"
 },
 
 {
   transactionId: 4,
-  item_name: "income",
+  item_name: "cat food",
   amount: 250,
-  date: "04-18-2023",
-  from: "Bank",
-  category:"cat food"
+  date: "December 18 2023",
+  from: "pet store",
+  category:"pet"
 }
 
 ]
